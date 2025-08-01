@@ -30,7 +30,7 @@ export default function Todo() {
             //add item to list
             setTodos([...todos, { title, description }]);
             setTitle("");
-            setDesciption("");
+            setDescription("");
             setMessage("Item added successfully");
             setTimeout(() => {
               setMessage("");

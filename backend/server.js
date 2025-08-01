@@ -8,8 +8,7 @@ const app = express();
 app.use(express.json()); // it will get the request from the browser as json data
 app.use(cors());
 
-// sample in-memory storage for todo items
-// let todos = [];
+
 
 // Connecting mongoodb
 mongoose
